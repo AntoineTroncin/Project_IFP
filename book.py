@@ -7,7 +7,7 @@ class Order:
     def __str__(self):
         return "%s @ %s" % (self.quantity, self.price)
 
-o = Order(5, 11.0) 
+#o = Order(5, 11.0) 
 
 class Book:
     def __init__(self, name, liste = []):
